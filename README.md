@@ -2,5 +2,5 @@
 
 Run this bash command:
 ```
-sudo bash <(curl -s https://raw.githubusercontent.com/dmitry-brazhenko/docker_installation/main/run.sh)
+sudo sh<  <(curl -s https://raw.githubusercontent.com/dmitry-brazhenko/docker_installation/main/run.sh)
 ```
