@@ -13,7 +13,7 @@ echo \
 
 
 sudo apt-get update
-sudo apt-get install docker-ce docker-ce-cli containerd.io
+sudo yes | apt-get install docker-ce docker-ce-cli containerd.io
 
 #https://docs.docker.com/engine/install/linux-postinstall/
 sudo groupadd docker
