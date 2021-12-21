@@ -17,10 +17,11 @@ sudo yes | apt-get install docker-ce docker-ce-cli containerd.io
 
 #https://docs.docker.com/engine/install/linux-postinstall/
 sudo groupadd docker
-sudo usermod -aG docker $USER
+
 su -s ${USER}
 
 sudo systemctl enable docker.service
 sudo systemctl enable containerd.service
 
 sudo systemctl restart docker.service
+sudo usermod -a -G docker $USER
