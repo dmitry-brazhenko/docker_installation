@@ -2,10 +2,16 @@
 
 Run this bash command:
 ```
-sudo sh<  <(curl -s https://raw.githubusercontent.com/dmitry-brazhenko/docker_installation/main/run.sh)
+sudo sh<  <(curl -s https://raw.githubusercontent.com/dmitry-brazhenko/docker_installation/main/run.sh) && newgrp docker
 ```
 
-Reboot you machine once installation completed
+You may need to reboot you machine once installation completed
 ```
 sudo reboot
+```
+
+Run hello-world
+
+```
+docker run hello-world
 ```
