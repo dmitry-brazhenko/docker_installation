@@ -24,4 +24,4 @@ sudo systemctl enable containerd.service
 
 sudo systemctl restart docker.service
 sudo usermod -a -G docker $USER
-newgrp docker
+
