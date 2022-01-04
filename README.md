@@ -1,4 +1,4 @@
-# One line install Docker on Ubuntu
+# One line install Docker and docker-compose on Ubuntu
 
 Run this bash command:
 ```shell
