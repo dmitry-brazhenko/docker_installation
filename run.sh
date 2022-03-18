@@ -18,10 +18,10 @@ sudo yes | sudo apt install docker-compose
 
 #https://docs.docker.com/engine/install/linux-postinstall/
 sudo groupadd docker
+sudo usermod -a -G docker $USER
 
 sudo systemctl enable docker.service
 sudo systemctl enable containerd.service
 
 sudo systemctl restart docker.service
-sudo usermod -a -G docker $USER
 
